@@ -3,7 +3,34 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
+
+body {
+  background-color: #1f2833;
+  margin: 0;
+}
+
+.nav-item {
+  background-color:#45a29e;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  gap: .2rem;
+  padding: 0 1rem;
+  text-decoration: none;
+  
+  
+}
+.About-h1 {
+  Color: #c5c6c7;
+  font-size: 3rem;
+  
+}
+
+
+
+
 
 .logo {
   height: 6em;

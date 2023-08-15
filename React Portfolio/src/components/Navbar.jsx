@@ -1,50 +1,42 @@
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
-    const currentPage = useLocation().pathname;
-  
-    return (
-      <ul className="nav nav-tabs">
+  const currentPage = useLocation().pathname;
+
+  const myStyle = {
+    color: "#66fcf1",
+    padding: "1px",
+    fontSize: "25px"  
+      };
+
+  return (
+    <nav >
+      <ul className="nav-item">
+      
         <li className="nav-item">
-          <Link
-            to="/"
-            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-            className={currentPage === '/' }
-          >
-            <h2 style={{color: "green"}}>Home</h2>
+          <Link to="/" className={currentPage === "/" ? "active-link" : ""}>
+            <h2 style={myStyle}>Home</h2>
           </Link>
         </li>
         <li className="nav-item">
-          <Link
-            to="/About"
-            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === '/About' }
-          >
-            About
+          <Link to="/about" className={currentPage === "/about" ? "active-link" : ""}>
+          <h2 style={myStyle}>About</h2>
           </Link>
         </li>
         <li className="nav-item">
-          <Link
-            to="/Projects"
-            // Check to see if the currentPage is `Projects`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === '/Blog' }
-          >
-            Projects
+          <Link to="/projects" className={currentPage === "/projects" ? "active-link" : ""}>
+          <h2 style={myStyle}>Projects</h2>
           </Link>
         </li>
         <li className="nav-item">
-          <Link
-            to="/Resume"
-            // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === '/Contact' }
-          >
-            Resume
+          <Link to="/resume" className={currentPage === "/resume" ? "active-link" : ""}>
+          <h2 style={myStyle}>Resume</h2>
           </Link>
         </li>
       </ul>
-    );
-  }
-  
-  export default Navbar;
-  
+    </nav>
+  );
+}
+
+export default Navbar;
