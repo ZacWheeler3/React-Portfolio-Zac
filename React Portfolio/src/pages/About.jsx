@@ -2,14 +2,13 @@ export default function About() {
     return (
       <div>
         <h1 className="About-h1">About Page</h1>
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full Stack Developer</h3>
+
         <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Experienced account manager with a strong background in client relations and project management, adeptly translating client requirements to effectively collaborate with full-stack web development teams. Proficient in facilitating clear communication channels, managing project timelines, and ensuring seamless delivery of web development solutions that align with client expectations. Skilled in gathering client feedback and leveraging it to drive successful project outcomes.
         </p>
+        <a href="#" class="btn">Read More</a>
       </div>
     );
   }

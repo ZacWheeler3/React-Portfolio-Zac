@@ -9,10 +9,12 @@
 body {
   background-color: #1f2833;
   margin: 0;
+  color: #ffff;
 }
 
 .nav-item {
   background-color:#45a29e;
+  border-radius: 2.5rem;
   display: flex;
   justify-content:flex-end;
   align-items: center;
@@ -20,12 +22,23 @@ body {
   padding: 0 1rem;
   text-decoration: none;
   
-  
 }
+
+.nav-item a{
+  text-decoration: none;
+
+}
+.Home-image img {
+  display: flex;
+  justify-content:space-around;
+  border-radius: 2.5rem;
+
+}
+
 .About-h1 {
   Color: #c5c6c7;
   font-size: 3rem;
-  
+
 }
 
 

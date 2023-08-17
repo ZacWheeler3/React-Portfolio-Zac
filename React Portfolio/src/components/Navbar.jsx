@@ -7,7 +7,8 @@ function Navbar() {
   const myStyle = {
     color: "#66fcf1",
     padding: "1px",
-    fontSize: "25px"  
+    fontSize: "25px",
+    textDecoration: "none" 
       };
 
   return (
