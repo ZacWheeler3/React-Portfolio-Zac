@@ -40,9 +40,10 @@ const HomeImage = () => {
 
 export default function Home() {
   return (
-    <div>
+    <section class="home" id="home">
+    <div className="home-content">
       <h3>Hi there, I'm</h3>
-      <h1>Zac Wheeler</h1>
+      <h1><span>Zac Wheeler</span></h1>
       <h3>
         <div className="Home-image"><HomeImage />
 </div>
@@ -51,5 +52,6 @@ export default function Home() {
       <p>Problem solving is my passion!</p>
       <MyComponent /> {}
     </div>
+    </section>
   );
 }
