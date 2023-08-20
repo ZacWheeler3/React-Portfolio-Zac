@@ -4,12 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est consectetur
-        tempora eaque, ducimus voluptates autem! Placeat numquam odit excepturi
-        autem qui aliquam earum magnam laudantium atque. Quo laboriosam illo atque?
-      </p>
-      <ul className="nav-list"> 
+      <ul className="nav-list">
         <li className="nav-item">
           <Link to="/">
             <h2 className="active">Home</h2>
@@ -36,4 +31,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
