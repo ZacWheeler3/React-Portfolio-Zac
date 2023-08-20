@@ -94,7 +94,8 @@ section {
 
 .Home-image img {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   border-radius: 2.5rem;
   width: 35vw;
   border-radius: 50px;
