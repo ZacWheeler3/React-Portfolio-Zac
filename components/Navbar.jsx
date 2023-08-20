@@ -5,6 +5,9 @@ function Navbar() {
   return (
     <nav>
       <ul className="nav-list">
+        <div className="left-item">
+          <li className="nav-item">Portfolio</li>
+        </div>
         <li className="nav-item">
           <Link to="/">
             <h2 className="active">Home</h2>

@@ -40,6 +40,15 @@ section {
   cursor: default;
 }
 
+.left-item {
+  flex: 1; 
+  color: #0ef;
+  font-size: 2.5rem;
+  list-style-type: none;
+  display: flex;
+
+
+}
 .nav-list {
   display: flex;
   justify-content: right;
@@ -47,6 +56,7 @@ section {
   gap: 1rem;
   padding: 0rem;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .nav-list a {
@@ -76,11 +86,11 @@ section {
   align-items: center;
 }
 
-.home-image{
+.home-image img {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 2.5rem;
+  border-radius: 25;
   width: 40vw;
   border-radius: 50px;
 }
@@ -150,12 +160,12 @@ section {
   background: #323946;
 }
 
-.About-image img {
+.about-image {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   border-radius: 2.5rem;
-  width: 35vw;
-  border-radius: 50px;
+  width: 40vw;
+ 
 }
 
 .logo {
