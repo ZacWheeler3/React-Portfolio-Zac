@@ -11,8 +11,9 @@ function Home() {
         <h3>
           and I'm a <span>Full Stack Engineer</span>
         </h3>
-        <img src="public/zxsxzs.jpg" className="home-image" alt="Profeszac" />
-        <p>Problem solving is my passion</p>
+        <img src="zxsxzs.jpg" className="home-image" alt="Profeszac" />
+        <p>Problem solving is my passion&#33; </p>
+        
       </div>
     </section>
   );
