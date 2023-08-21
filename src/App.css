@@ -82,7 +82,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .home-image img {
@@ -158,6 +157,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  background-color: #323946;
 }
 
 .about-section p {
@@ -189,6 +189,14 @@ section {
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.contact {
+  background: #323946;
+}
+
+.heading {
+  font-size: 3rem;
 }
 
 .pdf-document {
@@ -262,7 +270,7 @@ span {
 .portfolio-layer h4 {
   display: flex;
   font-size: 2.5rem;
-  color:#0ef;
+  color: #0ef;
 }
 
 .portfolio-layer p {
